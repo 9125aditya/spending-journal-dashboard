@@ -1,16 +1,118 @@
-# React + Vite
+# Spending Journal Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple finance dashboard to track and understand daily spending.
+Built with focus on clarity, usability, and clean UI rather than over-complication.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔍 Overview
 
-## React Compiler
+This project is a lightweight frontend dashboard where users can:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* see their total balance, income, and expenses
+* explore spending trends through charts
+* view and search transactions
+* get quick insights about their spending habits
 
-## Expanding the ESLint configuration
+It is designed to feel like a small personal tool rather than a complex enterprise product.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+* **Dashboard Summary**
+
+  * Total balance, income, and expenses
+  * Quick visual overview
+
+* **Charts**
+
+  * Line chart for spending trend
+  * Pie chart for category breakdown
+
+* **Transactions**
+
+  * List of transactions with date, category, and amount
+  * Search by category
+  * Filter by type (income / expense)
+
+* **Role-based UI**
+
+  * Viewer → can only view data
+  * Admin → can add transactions (demo)
+
+* **Dark Mode**
+
+  * Toggle between light and dark themes
+
+* **Export**
+
+  * Download transactions as CSV
+
+* **Persistence**
+
+  * Data stored in localStorage
+
+---
+
+## 🛠 Tech Stack
+
+* React (Vite)
+* Tailwind CSS
+* Recharts
+
+---
+
+## ⚙️ How to Run
+
+Clone the repository:
+
+```
+git clone https://github.com/your-username/spending-journal-dashboard.git
+cd spending-journal-dashboard
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Start the development server:
+
+```
+npm run dev
+```
+
+---
+
+## 🧠 Approach
+
+The goal of this project was not to build something overly complex, but to:
+
+* keep the UI clean and readable
+* implement meaningful features
+* handle state in a simple and understandable way
+* focus on usability over design trends
+
+---
+
+## 🚧 Future Improvements
+
+* Add modal to create/edit transactions
+* Better date-based filtering
+* Monthly analytics view
+* Backend integration
+
+---
+
+## 📌 Notes
+
+This project uses mock data and frontend-only logic.
+It is intended as a demonstration of frontend development and UI thinking.
+
+---
+
+## 👤 Author
+
+Aditya Singh
